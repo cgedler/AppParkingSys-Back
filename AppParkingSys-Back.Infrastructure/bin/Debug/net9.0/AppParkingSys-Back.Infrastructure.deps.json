@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AppParkingSys-Back.Infrastructure/1.0.0": {
+        "dependencies": {
+          "AppParkingSys-Back.Core": "1.0.0"
+        },
+        "runtime": {
+          "AppParkingSys-Back.Infrastructure.dll": {}
+        }
+      },
+      "AppParkingSys-Back.Core/1.0.0": {
+        "runtime": {
+          "AppParkingSys-Back.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppParkingSys-Back.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppParkingSys-Back.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

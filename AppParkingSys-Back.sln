@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppParkingSys-Back", "AppParkingSys-Back.csproj", "{87419B06-E045-4C8B-A6CA-24B87B070C23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppParkingSys-Back.Web", "AppParkingSys-Back.Web\AppParkingSys-Back.Web.csproj", "{959D156A-8A00-4DF2-8240-2320F74DCC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppParkingSys-Back.Core", "AppParkingSys-Back.Core\AppParkingSys-Back.Core.csproj", "{246ECCAE-FF49-4820-AA73-51E4CD3E0B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppParkingSys-Back.Services", "AppParkingSys-Back.Services\AppParkingSys-Back.Services.csproj", "{7EFB398A-D2C7-4091-B49B-3B3FF6BF6449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppParkingSys-Back.Infrastructure", "AppParkingSys-Back.Infrastructure\AppParkingSys-Back.Infrastructure.csproj", "{6CF46144-9452-4460-9D12-73765B778501}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,22 @@ Global
 		{87419B06-E045-4C8B-A6CA-24B87B070C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87419B06-E045-4C8B-A6CA-24B87B070C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87419B06-E045-4C8B-A6CA-24B87B070C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959D156A-8A00-4DF2-8240-2320F74DCC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959D156A-8A00-4DF2-8240-2320F74DCC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959D156A-8A00-4DF2-8240-2320F74DCC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959D156A-8A00-4DF2-8240-2320F74DCC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246ECCAE-FF49-4820-AA73-51E4CD3E0B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246ECCAE-FF49-4820-AA73-51E4CD3E0B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246ECCAE-FF49-4820-AA73-51E4CD3E0B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246ECCAE-FF49-4820-AA73-51E4CD3E0B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFB398A-D2C7-4091-B49B-3B3FF6BF6449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFB398A-D2C7-4091-B49B-3B3FF6BF6449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFB398A-D2C7-4091-B49B-3B3FF6BF6449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFB398A-D2C7-4091-B49B-3B3FF6BF6449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF46144-9452-4460-9D12-73765B778501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF46144-9452-4460-9D12-73765B778501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF46144-9452-4460-9D12-73765B778501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF46144-9452-4460-9D12-73765B778501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\bin\Debug\net9.0\AppParkingSys-Back.Core.deps.json
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\bin\Debug\net9.0\AppParkingSys-Back.Core.dll
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\bin\Debug\net9.0\AppParkingSys-Back.Core.pdb
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.AssemblyInfoInputs.cache
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.AssemblyInfo.cs
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.csproj.CoreCompileInputs.cache
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.sourcelink.json
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.dll
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\refint\AppParkingSys-Back.Core.dll
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.pdb
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\ref\AppParkingSys-Back.Core.dll

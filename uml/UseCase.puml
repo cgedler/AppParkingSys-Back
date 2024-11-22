@@ -1,0 +1,61 @@
+@startuml
+actor User as user
+left to right direction
+
+package AppInvoice {
+
+package ManageUsers {
+(Registration) as register
+(Login) as login
+user --> register
+user --> login
+}
+
+package Inventory {
+(Items) as items
+user --> items
+}
+
+note right of (Inventory)
+- Stock
+end note
+
+package AccountsReceivable {
+(Billing) as billing
+(Customers) as customer
+(Sellers) as seller
+user --> billing
+user --> customer
+user --> seller
+}
+
+note right of (AccountsReceivable)
+AccountsReceivable (AR)
+- Sales
+end note
+
+package AccountsPayable { 
+(Suppliers) as supliers
+(Shopping) as shopping
+user --> supliers
+user --> shopping
+}
+
+note right of (AccountsPayable)
+AccountsPayable (AP)
+- Shopping
+end note
+
+package Finance { 
+(Bank) as bank
+(Taxes) as taxes
+user --> bank
+user --> taxes
+}
+
+note right of (Finance)
+Accounting
+end note
+
+}
+@enduml
