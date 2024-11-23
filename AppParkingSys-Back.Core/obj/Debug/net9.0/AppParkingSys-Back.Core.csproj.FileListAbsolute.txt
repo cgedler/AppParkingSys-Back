@@ -10,3 +10,6 @@ C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\refint\AppParkingSys-Back.Core.dll
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.pdb
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\ref\AppParkingSys-Back.Core.dll
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\bin\Debug\net9.0\AppParkingSys-Back.Core.runtimeconfig.json
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.csproj.AssemblyReference.cache
+C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Core\obj\Debug\net9.0\AppParkingSys-Back.Core.genruntimeconfig.cache

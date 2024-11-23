@@ -7,8 +7,6 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string key = "1uCpfKVEM7F7PnMJlZQ5SlduRbf8osyTNQxIktlT5KI=";
-
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -39,32 +37,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
-//need Token
-app.MapGet("/protected", () => "Hello World")
-    .RequireAuthorization();
-
-app.MapGet("/protected-b", () => (ClaimsPrincipal user) => user.Identity?.Name)
-    .RequireAuthorization();
-
 
 app.MapGet("/auth/{user}/{password}", (string user, string password) =>
 {
@@ -77,10 +49,10 @@ app.MapGet("/auth/{user}/{password}", (string user, string password) =>
             Subject = new ClaimsIdentity(new Claim[]
             {
                 new Claim(ClaimTypes.Name, user),
+                new Claim("Scope", "myapi:drunken")
             }),
             Expires = DateTime.UtcNow.AddMonths(1),
             SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(byteKey), SecurityAlgorithms.HmacSha256Signature)
-
         };
         var token = tokenHandler.CreateToken(tokenDescriptor);
         return tokenHandler.WriteToken(token);
@@ -92,8 +64,3 @@ app.MapGet("/auth/{user}/{password}", (string user, string password) =>
 });
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

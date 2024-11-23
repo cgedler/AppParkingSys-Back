@@ -4,58 +4,20 @@ left to right direction
 
 package AppInvoice {
 
-package ManageUsers {
-(Registration) as register
-(Login) as login
-user --> register
-user --> login
+package Tickets {
+(GenerateTicket) as genticket
+user --> genticket
 }
 
-package Inventory {
-(Items) as items
-user --> items
+package Invoice {
+(Invoice) as invoice
+user --> invoice
 }
 
-note right of (Inventory)
-- Stock
+note right of (Invoice)
+- Find ticket active
+- Get ticket time, calculate cost
+- Close ticket
 end note
 
-package AccountsReceivable {
-(Billing) as billing
-(Customers) as customer
-(Sellers) as seller
-user --> billing
-user --> customer
-user --> seller
-}
-
-note right of (AccountsReceivable)
-AccountsReceivable (AR)
-- Sales
-end note
-
-package AccountsPayable { 
-(Suppliers) as supliers
-(Shopping) as shopping
-user --> supliers
-user --> shopping
-}
-
-note right of (AccountsPayable)
-AccountsPayable (AP)
-- Shopping
-end note
-
-package Finance { 
-(Bank) as bank
-(Taxes) as taxes
-user --> bank
-user --> taxes
-}
-
-note right of (Finance)
-Accounting
-end note
-
-}
 @enduml

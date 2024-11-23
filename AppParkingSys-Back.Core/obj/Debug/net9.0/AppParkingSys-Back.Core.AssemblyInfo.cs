@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppParkingSys-Back.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cc8ab2c783617e626520744104ab19ee0d851f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb8eaf561a1c7a310f20590e04f8855326cc30d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppParkingSys-Back.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppParkingSys-Back.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
