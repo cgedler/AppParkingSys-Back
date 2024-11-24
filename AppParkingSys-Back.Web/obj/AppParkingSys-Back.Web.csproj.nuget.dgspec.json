@@ -125,6 +125,9 @@
             "projectReferences": {
               "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj": {
                 "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj"
+              },
+              "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Services\\AppParkingSys-Back.Services.csproj": {
+                "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Services\\AppParkingSys-Back.Services.csproj"
               }
             }
           }
@@ -240,6 +243,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -341,6 +348,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[9.0.0, )"

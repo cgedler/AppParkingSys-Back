@@ -34,7 +34,7 @@ namespace AppParkingSys_Back.Infrastructure.Data.Configurations
                 .HasMaxLength(20);
 
             builder
-                .Property(x => x.Rol)
+                .Property(x => x.Role)
                 .HasMaxLength(20);
 
             builder

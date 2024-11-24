@@ -8,10 +8,10 @@ namespace AppParkingSys_Back.Core.Entities
 {
     public class User
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public Role Rol { get; set; }
+        public string Role { get; set; }
     }
 }

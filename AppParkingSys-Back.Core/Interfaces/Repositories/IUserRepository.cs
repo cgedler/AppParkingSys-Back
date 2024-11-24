@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppParkingSys_Back.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace AppParkingSys_Back.Core.Interfaces.Repositories
 {
     public interface IUserRepository : IBaseRepository<Entities.User>
     {
+        User GetUserByEmail(string email);
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppParkingSys_Back.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace AppParkingSys_Back.Core.Interfaces.Services
     public interface IUserService
     {
         Task<Entities.User> GetUserById(int id);
+        User GetUserByEmail(string email);
         Task<IEnumerable<Entities.User>> GetAll();
         Task<Entities.User> CreateUser(Entities.User newUser);
         Task<Entities.User> UpdateUser(int userToBeUpdatedId, Entities.User newUserValues);

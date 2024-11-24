@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppParkingSys-Back.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb8eaf561a1c7a310f20590e04f8855326cc30d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e14c21b4f1f7befdb849c8e3de08f1b33da742e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppParkingSys-Back.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppParkingSys-Back.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

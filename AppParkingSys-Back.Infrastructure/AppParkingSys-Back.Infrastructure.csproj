@@ -16,17 +16,21 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppParkingSys-Back.Core\AppParkingSys-Back.Core.csproj" />
+    <ProjectReference Include="..\AppParkingSys-Back.Services\AppParkingSys-Back.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>AppParkingSys_Back.Infrastructure</RootNamespace>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+  
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>AppParkingSys_Back.Infrastructure</RootNamespace>
+	</PropertyGroup>
+
 
 </Project>

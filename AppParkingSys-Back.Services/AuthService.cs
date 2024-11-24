@@ -1,4 +1,5 @@
-﻿using AppParkingSys_Back.Core.Helpers;
+﻿using AppParkingSys_Back.Core.Entities;
+using AppParkingSys_Back.Core.Helpers;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -35,10 +36,9 @@ namespace AppParkingSys_Back.Services
         {
             var claims = new ClaimsIdentity();
             claims.AddClaim(new Claim(ClaimTypes.Name, user.Email));
-
-            foreach (var role in user.Roles)
-                claims.AddClaim(new Claim(ClaimTypes.Role, role));
-
+            claims.AddClaim(new Claim(ClaimTypes.Role, user.Role));
+            //foreach (var role in user.Role)
+            //claims.AddClaim(new Claim(ClaimTypes.Role, user.Role));
             return claims;
         }
 

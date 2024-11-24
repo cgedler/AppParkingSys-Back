@@ -12,5 +12,7 @@ namespace AppParkingSys_Back.Core.Interfaces
         IUserRepository UserRepository { get; }
 
         Task<int> CountAsync();
+
+        Task<int> CommitAsync();
     }
 }
