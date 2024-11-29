@@ -1658,6 +1658,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AppParkingSys-Back.Core": "1.0.0",
+          "AppParkingSys-Back.Infrastructure": "1.0.0",
           "FluentValidation": "11.11.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",

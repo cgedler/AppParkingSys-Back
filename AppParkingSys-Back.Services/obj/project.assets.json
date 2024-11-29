@@ -1587,6 +1587,23 @@
         "runtime": {
           "bin/placeholder/AppParkingSys-Back.Core.dll": {}
         }
+      },
+      "AppParkingSys-Back.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "AppParkingSys-Back.Core": "1.0.0",
+          "AppParkingSys-Back.Services": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppParkingSys-Back.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppParkingSys-Back.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -4478,11 +4495,17 @@
       "type": "project",
       "path": "../AppParkingSys-Back.Core/AppParkingSys-Back.Core.csproj",
       "msbuildProject": "../AppParkingSys-Back.Core/AppParkingSys-Back.Core.csproj"
+    },
+    "AppParkingSys-Back.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../AppParkingSys-Back.Infrastructure/AppParkingSys-Back.Infrastructure.csproj",
+      "msbuildProject": "../AppParkingSys-Back.Infrastructure/AppParkingSys-Back.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "AppParkingSys-Back.Core >= 1.0.0",
+      "AppParkingSys-Back.Infrastructure >= 1.0.0",
       "FluentValidation >= 11.11.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
@@ -4525,6 +4548,9 @@
           "projectReferences": {
             "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj": {
               "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj"
+            },
+            "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Infrastructure\\AppParkingSys-Back.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Infrastructure\\AppParkingSys-Back.Infrastructure.csproj"
             }
           }
         }
@@ -4593,5 +4619,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  AppParkingSys-Back.Services -> AppParkingSys-Back.Infrastructure -> AppParkingSys-Back.Services.",
+      "libraryId": "AppParkingSys-Back.Services",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppParkingSys-Back.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e14c21b4f1f7befdb849c8e3de08f1b33da742e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e42d715cccba9d86d7e2c68c534a19cf8a40de26")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppParkingSys-Back.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppParkingSys-Back.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

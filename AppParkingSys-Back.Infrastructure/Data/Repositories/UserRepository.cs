@@ -10,18 +10,15 @@ using System.Threading.Tasks;
 
 namespace AppParkingSys_Back.Infrastructure.Data.Repositories
 {
-    public class UserRepository : BaseRepository<Core.Entities.User>, Core.Interfaces.Repositories.IUserRepository
+    public class UserRepository : BaseRepository<User>, IUserRepository
     {
-        internal AppDbContext _context;
-
         public UserRepository(AppDbContext context) : base(context)
         {
-            _context = context;
         }
 
-        User IUserRepository.GetUserByEmail(string email)
+        public async Task<User> GetUserByEmailAsync(string email)
         {
-            return _context.Users.SingleOrDefault(u => u.Email == email);
+            return await _context.Users.SingleOrDefaultAsync(u => u.Email == email);
         }
     }
 }

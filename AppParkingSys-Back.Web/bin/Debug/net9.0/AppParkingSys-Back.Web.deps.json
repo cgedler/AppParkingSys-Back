@@ -988,6 +988,7 @@
       "AppParkingSys-Back.Infrastructure/1.0.0": {
         "dependencies": {
           "AppParkingSys-Back.Core": "1.0.0",
+          "AppParkingSys-Back.Services": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"

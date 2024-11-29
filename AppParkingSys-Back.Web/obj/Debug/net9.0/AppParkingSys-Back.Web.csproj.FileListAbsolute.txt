@@ -162,4 +162,3 @@ C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Web\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Web\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Web\bin\Debug\net9.0\FluentValidation.dll
-C:\Users\cge\OneDrive\Documents\NetCoreProjects\AppParkingSys-Back\AppParkingSys-Back.Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

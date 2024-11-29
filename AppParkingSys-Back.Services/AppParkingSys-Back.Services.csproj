@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppParkingSys-Back.Core\AppParkingSys-Back.Core.csproj" />
+	<ProjectReference Include="..\AppParkingSys-Back.Infrastructure\AppParkingSys-Back.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

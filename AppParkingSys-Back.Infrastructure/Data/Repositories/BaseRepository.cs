@@ -11,78 +11,40 @@ namespace AppParkingSys_Back.Infrastructure.Data.Repositories
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
-        internal AppDbContext Context;
-        internal DbSet<TEntity> dbSet;
+        protected readonly AppDbContext _context;
+        private readonly DbSet<TEntity> _dbSet;
 
         public BaseRepository(AppDbContext context)
         {
-            this.Context = context;
-            this.dbSet = context.Set<TEntity>();
+            this._context = context;
+            this._dbSet = context.Set<TEntity>();
         }
-
-        public virtual async Task AddAsync(TEntity entity)
-        {
-            await dbSet.AddAsync(entity);
+        public async Task<TEntity> GetByIdAsync(int id)
+        {  
+            return await _dbSet.FindAsync(id);
         }
-
-        public virtual async Task AddRangeAsync(IEnumerable<TEntity> entities)
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            await dbSet.AddRangeAsync(entities);
+            return await _dbSet.ToListAsync() ?? new List<TEntity>();
         }
-
-        public virtual async Task<IEnumerable<TEntity>> GetAllAsync()
+        public async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate)
         {
-            return await dbSet.ToListAsync();
+            return await _dbSet.Where(predicate).ToListAsync() ?? new List<TEntity>();
         }
-
-        public virtual async Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, string includeProperties = "")
+        public async Task AddAsync(TEntity entity)
         {
-            IQueryable<TEntity> query = dbSet;
-
-            if (filter != null)
-                query = query.Where(filter);
-
-            foreach (var includeProperty in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
-            {
-                query = query.Include(includeProperty);
-            }
-
-            if (orderBy != null)
-                return await orderBy(query).ToListAsync();
-            else
-                return await query.ToListAsync();
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            await _dbSet.AddAsync(entity);
         }
-
-        public virtual async ValueTask<TEntity> GetByIdAsync(int id)
+        public void Update(TEntity entity)
         {
-            return await dbSet.FindAsync(id);
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            _dbSet.Update(entity);
         }
-
-        public virtual void Remove(TEntity entity)
+        public void Remove(TEntity entity)
         {
-            dbSet.Remove(entity);
-        }
-
-        public virtual void RemoveRange(IEnumerable<TEntity> entities)
-        {
-            dbSet.RemoveRange(entities);
-        }
-
-        public virtual async Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate)
-        {
-            return await dbSet.SingleOrDefaultAsync(predicate);
-        }
-
-        public virtual async Task Update(TEntity entityToUpdate)
-        {
-            dbSet.Attach(entityToUpdate);
-            Context.Entry(entityToUpdate).State = EntityState.Modified;
-        }
-
-        public virtual async Task UpdateRange(IEnumerable<TEntity> entitiesToUpdate)
-        {
-            dbSet.AttachRange(entitiesToUpdate);
-            Context.Entry(entitiesToUpdate).State = EntityState.Modified;
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            _dbSet.Remove(entity);
         }
     }
 }

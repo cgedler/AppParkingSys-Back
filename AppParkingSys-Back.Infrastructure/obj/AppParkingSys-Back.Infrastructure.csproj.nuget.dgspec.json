@@ -223,6 +223,9 @@
             "projectReferences": {
               "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj": {
                 "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Core\\AppParkingSys-Back.Core.csproj"
+              },
+              "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Infrastructure\\AppParkingSys-Back.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\AppParkingSys-Back.Infrastructure\\AppParkingSys-Back.Infrastructure.csproj"
               }
             }
           }

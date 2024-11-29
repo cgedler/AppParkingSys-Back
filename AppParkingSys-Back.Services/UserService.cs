@@ -2,6 +2,7 @@
 using AppParkingSys_Back.Core.Interfaces;
 using AppParkingSys_Back.Core.Interfaces.Repositories;
 using AppParkingSys_Back.Core.Interfaces.Services;
+using AppParkingSys_Back.Infrastructure.Data.Repositories;
 using AppParkingSys_Back.Services.Validators;
 using System;
 using System.Collections.Generic;
@@ -14,8 +15,8 @@ namespace AppParkingSys_Back.Services
     public class UserService : IUserService
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IUserRepository _userRepository;
-        public UserService(IUnitOfWork unitOfWork, IUserRepository userRepository)
+        private readonly UserRepository _userRepository;
+        public UserService(IUnitOfWork unitOfWork, UserRepository userRepository)
         {
             _unitOfWork = unitOfWork;
             _userRepository = userRepository;
@@ -81,7 +82,7 @@ namespace AppParkingSys_Back.Services
 
         User IUserService.GetUserByEmail(string email)
         {
-            return _userRepository.GetUserByEmail(email);
+            return _userRepository.GetUserByEmailAsync(email);
         }
     }
 }

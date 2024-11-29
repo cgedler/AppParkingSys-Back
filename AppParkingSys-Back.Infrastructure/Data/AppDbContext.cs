@@ -11,7 +11,7 @@ namespace AppParkingSys_Back.Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public required DbSet<User> Users { get; set; }
 
         public AppDbContext() { }
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)

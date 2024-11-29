@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace AppParkingSys_Back.Core.Interfaces.Repositories
 {
-    public interface IUserRepository : IBaseRepository<Entities.User>
+    public interface IUserRepository : IBaseRepository<User>
     {
-        User GetUserByEmail(string email);
+        Task<User> GetUserByEmailAsync(string email);
     }
 }

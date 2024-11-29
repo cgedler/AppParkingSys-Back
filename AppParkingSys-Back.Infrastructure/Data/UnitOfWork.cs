@@ -9,15 +9,10 @@ using System.Threading.Tasks;
 
 namespace AppParkingSys_Back.Infrastructure.Data
 {
-    public class UnitOfWork : IUnitOfWork
+    public class UnitOfWork(AppDbContext context) : IUnitOfWork
     {
-        private readonly AppDbContext _context;
-        private Repositories.UserRepository _userRepository;
-
-        public UnitOfWork(AppDbContext context)
-        {
-            this._context = context;
-        }
+        private readonly AppDbContext _context = context;
+        private Repositories.UserRepository? _userRepository;
 
         public IUserRepository UserRepository => _userRepository ??= new UserRepository(_context);
 

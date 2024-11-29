@@ -1593,6 +1593,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "AppParkingSys-Back.Core": "1.0.0",
+          "AppParkingSys-Back.Infrastructure": "1.0.0",
           "FluentValidation": "11.11.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0",
@@ -4614,5 +4615,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  AppParkingSys-Back.Infrastructure -> AppParkingSys-Back.Services -> AppParkingSys-Back.Infrastructure.",
+      "libraryId": "AppParkingSys-Back.Infrastructure",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }
