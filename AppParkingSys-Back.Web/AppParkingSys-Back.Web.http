@@ -1,6 +1,0 @@
-@AppParkingSys_Back.Web_HostAddress = http://localhost:5160
-
-GET {{AppParkingSys_Back.Web_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
