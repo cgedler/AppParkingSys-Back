@@ -1,34 +1,12 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Text;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.Extensions.Configuration;
 using Core.Interfaces.Repositories;
 using Core.Interfaces.Services;
 using Infrastructure.Data.Repositories;
-
 using Services.App;
 
 var builder = WebApplication.CreateBuilder(args);
-var config = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json").Build();
-string? keytoken = config["Jwt:Key"]; // campo nulo
+
 // Add services to the container.
-builder.Services.AddAuthorization();
-builder.Services.AddAuthentication("Bearer").AddJwtBearer(opt =>
-{
-   
-    var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(keytoken));
-    var signingCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256Signature);
 
-    opt.RequireHttpsMetadata = false;
-
-    opt.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateAudience = false,
-        ValidateIssuer = false,
-        IssuerSigningKey = signingKey,
-    };
-
-});
 builder.Services.AddControllers();
 
 // Add custom services and repositories
