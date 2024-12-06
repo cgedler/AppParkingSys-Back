@@ -10,9 +10,10 @@ namespace Core.Interfaces.Services
     public interface IUserService
     {
         Task<User?> GetUserById(int id);
-        Task<User?> GetUserByEmail(string email); 
-        void RegisterUser(User user); 
-        void UpdateUser(User user); 
-        void DeleteUser(User user);
+        Task<User?> GetUserByEmail(string email);
+        Task<IEnumerable<User>> GetAll();
+        Task<User> RegisterUser(User user);
+        Task<User> UpdateUser(int id, User user);
+        Task<User> DeleteUser(int id);
     }
 }

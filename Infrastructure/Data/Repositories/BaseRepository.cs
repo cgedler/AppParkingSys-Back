@@ -14,12 +14,10 @@ namespace Infrastructure.Data.Repositories
     {
         protected readonly ApplicationDbContext _context; 
         private readonly DbSet<TEntity> _dbSet;
-        public readonly ILogger _logger;
-        public BaseRepository(ApplicationDbContext context, ILogger logger) 
+        public BaseRepository(ApplicationDbContext context) 
         { 
-            _context = context; 
+            _context = context;
             _dbSet = _context.Set<TEntity>();
-            _logger = logger;
         }
         public async Task<TEntity?> GetByIdAsync(int id) 
         { 
@@ -27,23 +25,26 @@ namespace Infrastructure.Data.Repositories
         }
         public async Task<IEnumerable<TEntity>> GetAllAsync() 
         { 
-            return await _dbSet.ToListAsync(); 
+            return await _dbSet.ToListAsync() ?? new List<TEntity>();
         }
         public async Task<IEnumerable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate) 
         { 
-            return await _dbSet.Where(predicate).ToListAsync(); 
+            return await _dbSet.Where(predicate).ToListAsync() ?? new List<TEntity>();
         }
         public async Task AddAsync(TEntity entity) 
-        { 
+        {
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
             await _dbSet.AddAsync(entity); 
         }
         public void Update(TEntity entity) 
-        { 
+        {
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
             _dbSet.Update(entity); 
         }
-        public void Remove(TEntity entity) 
-        { 
-            _dbSet.Remove(entity); 
+        public void Remove(TEntity entity)
+        {
+            if (entity == null) throw new ArgumentNullException(nameof(entity));
+            _dbSet.Remove(entity);
         }
     }
 }

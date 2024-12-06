@@ -9,17 +9,22 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Repositories
 {
-    public class UnitOfWork(ApplicationDbContext context, ILoggerFactory loggerFactory) : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
-        private readonly ApplicationDbContext _context = context; 
+        private readonly ApplicationDbContext _context; 
         private IUserRepository? _userRepository;
-        private readonly ILogger _logger = loggerFactory.CreateLogger("logs");
+       
+        public UnitOfWork(ApplicationDbContext context, IUserRepository? userRepository)
+        {
+            _context = context;
+            _userRepository = userRepository;
+        }
 
         public IUserRepository UserRepository 
-        { 
-            get { return _userRepository ??= new UserRepository(_context, _logger); } 
+        {
+            get { return _userRepository ??= new UserRepository(_context); }
         }
-        public async Task<int> CompleteAsync() 
+        public async Task<int> CompleteAsync()
         { 
             return await _context.SaveChangesAsync(); 
         }

@@ -15,7 +15,7 @@ namespace Infrastructure.Data.Configurations
         {
             builder
                .HasKey(x => x.Id);
-
+         
             builder
                 .Property(x => x.Id)
                 .UseIdentityColumn();
@@ -27,7 +27,7 @@ namespace Infrastructure.Data.Configurations
             builder
                 .Property(x => x.PasswordHash)
                 .IsRequired()
-                .HasMaxLength(20);
+                .HasMaxLength(255);
 
             builder
                 .Property(x => x.Role)

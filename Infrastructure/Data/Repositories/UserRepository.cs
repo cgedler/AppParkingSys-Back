@@ -14,8 +14,9 @@ namespace Infrastructure.Data.Repositories
 {
     public class UserRepository : BaseRepository<User>, IUserRepository
     {
-        public UserRepository(ApplicationDbContext context, ILogger logger) : base(context, logger)
-        { 
+        public UserRepository(ApplicationDbContext context) : base(context)
+        {
+ 
         }
 
         async Task<User?> IUserRepository.GetUserByEmailAsync(string email)
@@ -28,9 +29,9 @@ namespace Infrastructure.Data.Repositories
             return await _context.Users.FindAsync(id);
         }
 
-        Task<IEnumerable<User>> IBaseRepository<User>.GetAllAsync()
+        async Task<IEnumerable<User>> IBaseRepository<User>.GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Users.ToListAsync(); ;
         }
 
         Task<IEnumerable<User>> IBaseRepository<User>.FindAsync(Expression<Func<User, bool>> predicate)
@@ -59,6 +60,11 @@ namespace Infrastructure.Data.Repositories
                 _context.Users.Remove(user); 
                 _context.SaveChanges(); 
             }
+        }
+
+        public void Remove(Task<User?> user)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -10,5 +10,6 @@ namespace Core.Interfaces.Repositories
     public interface IUserRepository : IBaseRepository<User>
     {
         Task<User?> GetUserByEmailAsync(string email);
+        void Remove(Task<User?> user);
     }
 }

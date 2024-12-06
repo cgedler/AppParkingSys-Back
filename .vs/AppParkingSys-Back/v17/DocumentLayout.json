@@ -3,24 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\services\\app\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|solutionrelative:services\\app\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +67,20 @@
       "RelativeMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|solutionrelative:services\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\services\\app\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|solutionrelative:services\\app\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -45,34 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,110 +102,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserSaveModel.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
-              "RelativeDocumentMoniker": "Api\\Models\\UserSaveModel.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
-              "RelativeToolTip": "Api\\Models\\UserSaveModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:06:04.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Api\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
-              "RelativeToolTip": "Api\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:05:49.669Z",
+              "WhenOpened": "2024-12-06T02:01:47.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MappingProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
-              "RelativeDocumentMoniker": "Api\\Mappers\\MappingProfiles.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
-              "RelativeToolTip": "Api\\Mappers\\MappingProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T13:04:31.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Api",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Api.csproj",
-              "RelativeDocumentMoniker": "Api\\Api.csproj",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Api.csproj",
-              "RelativeToolTip": "Api\\Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-30T13:03:56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "Services\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "Services\\Validators\\UserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T12:56:30.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\App\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\App\\UserService.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\App\\UserService.cs",
               "RelativeToolTip": "Services\\App\\UserService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwFEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:21:19.648Z",
+              "WhenOpened": "2024-12-05T18:59:58.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "Services\\Validators\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "Services\\Validators\\UserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:17:52.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:36:35.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:11:36.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IBaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IBaseRepository.cs",
               "RelativeDocumentMoniker": "Core\\Interfaces\\Repositories\\IBaseRepository.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IBaseRepository.cs",
               "RelativeToolTip": "Core\\Interfaces\\Repositories\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:10:28.243Z",
+              "WhenOpened": "2024-12-05T20:11:39.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 3,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\BaseRepository.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
               "RelativeToolTip": "Infrastructure\\Data\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:12:09.572Z",
+              "WhenOpened": "2024-12-05T20:01:48.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T16:57:48.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:35:21.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:02:00.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T14:06:34.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
+              "RelativeToolTip": "Api\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:06:28.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:51:43.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSaveModel.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\UserSaveModel.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
+              "RelativeToolTip": "Api\\Models\\UserSaveModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:06:35.582Z",
               "EditorCaption": ""
             },
             {
@@ -200,131 +294,105 @@
               "RelativeDocumentMoniker": "Core\\Interfaces\\Services\\IUserService.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUserService.cs",
               "RelativeToolTip": "Core\\Interfaces\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:20:25.855Z",
+              "WhenOpened": "2024-12-05T17:01:26.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:41:58.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Api\\Mappers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
+              "RelativeToolTip": "Api\\Mappers\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T20:36:07.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:55:32.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Api.csproj",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Api.csproj",
+              "RelativeDocumentMoniker": "Api\\Api.csproj",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Api.csproj",
+              "RelativeToolTip": "Api\\Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T13:03:56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
+              "RelativeDocumentMoniker": "Api\\Settings\\Security\\JwtService.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
+              "RelativeToolTip": "Api\\Settings\\Security\\JwtService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAywCUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:47:08.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Core.csproj",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Core.csproj",
               "RelativeToolTip": "Core\\Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-11-29T14:16:05.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Entities\\User.cs",
-              "RelativeToolTip": "Core\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:32:14.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
-              "RelativeToolTip": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:04:48.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-11-29T14:17:10.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Core\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:08:43.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:06:34.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwBcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:17:38.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIBJwBUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:15:59.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBAAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:22:53.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "Api\\WeatherForecast.cs",
