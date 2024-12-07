@@ -1,5 +1,6 @@
 ﻿using Api.Controllers;
 using Core.Entities;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Api.Settings.Security
 {
-    internal class JwtService
+    public class JwtService : IJwtService
     {
         private readonly JwtSettings _jwtSettings;
 
@@ -51,6 +52,19 @@ namespace Api.Settings.Security
             //foreach (var role in user.Role)
             //claims.AddClaim(new Claim(ClaimTypes.Role, user.Role));
             return claims;
+        }
+
+        public bool validatePassword(string loginPassword, string registeredPassword)
+        {
+            bool PasswordHash = BCrypt.Net.BCrypt.EnhancedVerify(loginPassword, registeredPassword);
+            if (PasswordHash)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }

@@ -42,7 +42,7 @@ namespace Services.App
             var validationResult = await validator.ValidateAsync(user);
             if (validationResult.IsValid)
             {
-                user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+                user.PasswordHash = BCrypt.Net.BCrypt.EnhancedHashPassword(user.PasswordHash, 13);
                 await _unitOfWork.UserRepository.AddAsync(user);
                 _unitOfWork.CompleteAsync().Wait();
             }
@@ -75,7 +75,7 @@ namespace Services.App
                 {
                     existingUser.Email=user.Email;
                     existingUser.Role = user.Role;
-                    existingUser.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+                    existingUser.PasswordHash = BCrypt.Net.BCrypt.EnhancedHashPassword(user.PasswordHash, 13);
                     _unitOfWork.UserRepository.Update(existingUser); 
                     _unitOfWork.CompleteAsync().Wait();
                 }

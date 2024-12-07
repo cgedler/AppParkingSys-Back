@@ -11,14 +11,26 @@ using Microsoft.IdentityModel.Tokens;
 using Services.App;
 using System;
 using System.Text;
+using Microsoft.Extensions.Configuration;
+using Serilog;
+using Api.Settings.Security;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// configuration Logging
+// Configuration Logging
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 builder.Logging.AddEventSourceLogger();
+
+// Configuration Serilog
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+builder.Host.UseSerilog();
 
 // Add services to the container.
 // Get JWT configuration from appsettings.json file
@@ -42,8 +54,9 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer(opt =>
 });
 
 builder.Services.AddControllers();
-
+builder.Services.AddEndpointsApiExplorer();
 // Add custom services and repositories
+builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //builder.Services.AddScoped<IBaseRepository, BaseRepository>();
 builder.Services.AddScoped<IUserService, UserService>(); 
@@ -52,6 +65,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
     x => x.MigrationsAssembly("Infrastructure"))
 );
+
 
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
