@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Entities
 {
+    /// <summary>
+    ///    Represents the user table of the database.
+    /// </summary>
     public class User
     {
         public int Id { get; set; }

@@ -11,6 +11,9 @@ using Microsoft.Extensions.Logging;
 
 namespace Api.Controllers
 {
+    /// <summary>
+    /// Class <c>LoginController</c>
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
@@ -20,6 +23,7 @@ namespace Api.Controllers
         private readonly IMapper _mapper;
         private readonly IJwtService _jwtService;
 
+
         public LoginController(ILogger<LoginController> logger, IUserService userService, IMapper mapper, IJwtService jwtService)
         {
             _logger = logger;
@@ -27,6 +31,20 @@ namespace Api.Controllers
             _mapper = mapper;
             _jwtService = jwtService;
         }
+
+        /// <summary>
+        /// Method <c>Login</c> This method receives the user data to perform the validation, returns an access token.
+        /// <example>
+        /// <code>
+        /// {
+        ///     "email": "example@example.com",
+        ///     "password": "123456"
+        /// }
+        /// </code>
+        /// </example>
+        /// </summary>
+        /// <param name="loginRequest">Data from the request</param>
+        /// <returns>Access token</returns>
 
         [AllowAnonymous]
         [HttpPost]

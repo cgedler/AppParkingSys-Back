@@ -4,6 +4,9 @@ using Core.Entities;
 
 namespace Api.Mappers
 {
+    /// <summary>
+    ///  Class <c>MappingProfiles</c> to map from one object to another
+    /// </summary>
     public class MappingProfiles : Profile
     {
         public MappingProfiles()

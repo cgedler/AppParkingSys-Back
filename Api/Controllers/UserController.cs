@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
+    /// <summary>
+    ///  Class <c>UserController</c> handles HTTP requests and interacts with the service.
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -92,7 +95,5 @@ namespace Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
-
     }
 }

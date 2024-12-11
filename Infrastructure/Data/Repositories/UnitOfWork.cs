@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Repositories
 {
+    /// <summary>
+    /// manage transactions and persistence of multiple repositories in a single operation
+    /// </summary>
     public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _context; 

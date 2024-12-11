@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
+    /// <summary>
+    /// Handles interaction with the database.
+    /// </summary>
     public class ApplicationDbContext : DbContext
     {
         public required DbSet<User> Users { get; set; }

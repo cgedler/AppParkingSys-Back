@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace Core.Interfaces.Repositories
 {
+    /// <summary>
+    /// This class will contain common generic methods that you can reuse with other entities.
+    /// </summary>
+    /// <typeparam name="TEntity">Represents an entity</typeparam>
     public interface IBaseRepository<TEntity> where TEntity : class
     {
         Task<TEntity?> GetByIdAsync(int id);

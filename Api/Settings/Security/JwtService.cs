@@ -13,6 +13,9 @@ using System.Threading.Tasks;
 
 namespace Api.Settings.Security
 {
+    /// <summary>
+    ///  Class <c>JwtServicer</c> Read JWT key
+    /// </summary>
     public class JwtService : IJwtService
     {
         private readonly JwtSettings _jwtSettings;

@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2EC8322-5B93-4A95-929D-16ABF7655C54}|Core\\Core.csproj|solutionrelative:core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\settings\\security\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DDDF411-5168-4438-8E8D-38EFE44A2F59}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\mappers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\models\\usersavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\settings\\security\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\settings\\security\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFEB8E7-AEAE-44D8-85AF-497E300AABD6}|Api\\Api.csproj|solutionrelative:api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21F7696A-5B29-4B44-8E7E-C05F949AD8BE}|Services\\Services.csproj|c:\\users\\cge\\onedrive\\documents\\netcoreprojects\\appparkingsys-back\\services\\app\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +74,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:44:41.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Services\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:44:30.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Api\\Mappers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Mappers\\MappingProfiles.cs",
+              "RelativeToolTip": "Api\\Mappers\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserModel.cs",
+              "RelativeToolTip": "Api\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserSaveModel.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\UserSaveModel.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Models\\UserSaveModel.cs",
+              "RelativeToolTip": "Api\\Models\\UserSaveModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Api\\Settings\\Security\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\IJwtService.cs",
+              "RelativeToolTip": "Api\\Settings\\Security\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Api\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "Api\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:30.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Core\\Entities\\User.cs",
@@ -51,7 +208,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
+              "RelativeDocumentMoniker": "Api\\Settings\\Security\\JwtService.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
+              "RelativeToolTip": "Api\\Settings\\Security\\JwtService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:47:08.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T20:39:33.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Services\\App\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\App\\UserService.cs",
@@ -59,12 +242,11 @@
               "RelativeToolTip": "Services\\App\\UserService.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAmwEsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T00:16:16.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T00:16:16.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\LoginController.cs",
@@ -72,12 +254,11 @@
               "RelativeToolTip": "Api\\Controllers\\LoginController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:36:35.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T14:36:35.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Api\\Program.cs",
@@ -85,34 +266,19 @@
               "RelativeToolTip": "Api\\Program.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T14:06:34.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T14:06:34.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
-              "RelativeDocumentMoniker": "Api\\Settings\\Security\\JwtService.cs",
-              "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Settings\\Security\\JwtService.cs",
-              "RelativeToolTip": "Api\\Settings\\Security\\JwtService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowD0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:47:08.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Api\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Api\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T15:55:32.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T15:55:32.36Z"
             }
           ]
         }

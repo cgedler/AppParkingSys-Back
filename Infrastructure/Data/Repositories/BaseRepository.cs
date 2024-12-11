@@ -10,6 +10,12 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data.Repositories
 {
+    /// <summary>
+    /// Class <c>BaseRepository<TEntity></c>
+    /// Implementations of the repositories defined in the Core
+    /// This class will contain common generic methods that you can reuse with other entities.
+    /// </summary>
+    /// <typeparam name="TEntity">Represents an entity</typeparam>
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
         protected readonly ApplicationDbContext _context; 
