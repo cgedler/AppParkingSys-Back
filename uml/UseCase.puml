@@ -1,23 +1,50 @@
 @startuml
 actor User as user
+actor User as user2
 left to right direction
 
-package AppInvoice {
+package AppParkingSys {
 
-package Tickets {
-(GenerateTicket) as genticket
+package TicketingService {
+    (GenerateTicket) as genticket
+}
+
+package ExitService {
+
+    package PaymentService {
+        (PaymentTicket) as payticket
+        (ShowPaymentDetails) as paydetails
+    }
+
+    package PrecingService {
+        (CalculatePrice) as calcprice
+    }
+
+}
+
+}
 user --> genticket
-}
+genticket --> user2
+user --> payticket
+payticket --> calcprice
+calcprice --> paydetails
+paydetails --> user2
 
-package Invoice {
-(Invoice) as invoice
-user --> invoice
-}
+note left of (genticket)
+    - Get new ticket ID
+end note
 
-note right of (Invoice)
-- Find ticket active
-- Get ticket time, calculate cost
-- Close ticket
+note right of (payticket)
+    - Find ticket active
+    - Close ticket
+end note
+
+note right of (calcprice)
+    - Get ticket time, calculate price
+end note
+
+note left of (paydetails)
+    - Show payment details
 end note
 
 @enduml

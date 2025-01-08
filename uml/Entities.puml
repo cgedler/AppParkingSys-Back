@@ -1,0 +1,25 @@
+@startuml
+
+entity Tickets {
+* identifying
+--
+entry_time
+exit_time
+}
+
+entity Prices {
+* identifying
+--
+price
+}
+
+entity Payment {
+* identifying
+--
+amount
+payment_date
+}
+
+Tickets ||--|| Payment
+
+@enduml

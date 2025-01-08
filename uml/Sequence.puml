@@ -1,0 +1,35 @@
+@startuml
+title AppParkingSys
+actor User as u
+participant "GenerateTicket \n **TicketingService**" as genticket
+participant "PaymentTicket \n **PaymentService**" as payticket
+participant "ShowPaymentDetails \n **PaymentService**" as showpay
+participant "CalculatePrice \n **PrecingService**" as calcprice
+database "Database" as db
+
+
+u -> genticket : getNewTicket()
+activate genticket
+genticket -> db : generateTicket()
+activate db
+db -> genticket : new ticket
+deactivate db
+genticket [#green]-> u :  <font color=green><b>Response: Ticket
+deactivate genticket
+
+u -> payticket : payTicket()
+activate payticket
+payticket -> calcprice : calculatePrice()
+activate calcprice
+calcprice -> db : getTicketTime()
+activate db
+db -> calcprice : time
+deactivate db
+calcprice -> showpay : calculated time
+deactivate calcprice
+activate showpay
+showpay -> payticket : payment details
+deactivate showpay
+payticket [#green]-> u : <font color=green><b>Response: Payment Details
+
+@enduml
