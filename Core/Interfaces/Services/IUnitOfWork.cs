@@ -13,6 +13,9 @@ namespace Core.Interfaces.Services
     public interface IUnitOfWork : IDisposable
     {
         IUserRepository UserRepository { get; }
+        ITicketRepository TicketRepository { get; }
+        IPriceRepository PriceRepository { get; }
+        IPaymentRepository PaymentRepository { get; }
         Task<int> CompleteAsync();
     }
 }

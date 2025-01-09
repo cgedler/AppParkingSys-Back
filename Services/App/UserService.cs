@@ -48,7 +48,7 @@ namespace Services.App
             }
             else
             {
-                _logger.LogWarning("Inside RegisterUser: " + validationResult.Errors.ToString());
+                _logger.LogWarning("Inside Register User: " + validationResult.Errors.ToString());
                 throw new ArgumentException(validationResult.Errors.ToString());
             }
             return user;

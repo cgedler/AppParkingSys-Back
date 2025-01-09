@@ -14,6 +14,7 @@ namespace Services.Validators
         {
             RuleFor(x => x.Email)
                 .NotEmpty()
+                .EmailAddress()
                 .MaximumLength(150);
 
             RuleFor(x => x.PasswordHash)
