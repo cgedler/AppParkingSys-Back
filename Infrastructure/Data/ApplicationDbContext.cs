@@ -16,6 +16,9 @@ namespace Infrastructure.Data
     public class ApplicationDbContext : DbContext
     {
         public required DbSet<User> Users { get; set; }
+        public required DbSet<Ticket> Tickets { get; set; }
+        public required DbSet<Price> Prices { get; set; }
+        public required DbSet<Payment> Payments { get; set; }
         public ApplicationDbContext() { }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -30,6 +33,9 @@ namespace Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.ApplyConfiguration(new UserConfiguration());
+            builder.ApplyConfiguration(new TicketConfiguration());
+            builder.ApplyConfiguration(new PriceConfiguration());
+            builder.ApplyConfiguration(new PaymentConfiguration());
         }
 
     }

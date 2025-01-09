@@ -16,6 +16,5 @@ namespace Core.Entities
         public required string PasswordHash { get; set; }
         public required string Role { get; set; }
         public User() { }
-
     }
 }

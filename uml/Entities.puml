@@ -3,21 +3,21 @@
 entity Tickets {
 * identifying
 --
-entry_time
-exit_time
+EntryTime
+ExitTime
 }
 
 entity Prices {
 * identifying
 --
-price
+Amount
 }
 
 entity Payment {
 * identifying
 --
-amount
-payment_date
+Amount
+PaymentDate
 }
 
 Tickets ||--|| Payment

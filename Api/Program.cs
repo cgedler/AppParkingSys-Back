@@ -61,6 +61,12 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //builder.Services.AddScoped<IBaseRepository, BaseRepository>();
 builder.Services.AddScoped<IUserService, UserService>(); 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITicketService, TicketService>();
+builder.Services.AddScoped<ITicketRepository, TicketRepository>();
+builder.Services.AddScoped<IPriceService, PriceService>();
+builder.Services.AddScoped<IPriceRepository, PriceRepository>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
     x => x.MigrationsAssembly("Infrastructure"))
