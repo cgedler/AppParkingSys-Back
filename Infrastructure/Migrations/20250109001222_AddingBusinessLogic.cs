@@ -45,7 +45,7 @@ namespace Infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     EntryTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ExitTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    ExitTime = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {
