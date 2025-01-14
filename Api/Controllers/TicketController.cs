@@ -12,6 +12,7 @@ namespace Api.Controllers
     ///  Class <c>TicketController</c> handles HTTP requests and interacts with the service.
     /// </summary>
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class TicketController : ControllerBase
     {
@@ -29,6 +30,7 @@ namespace Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TicketModel>>> Get()
         {
+            _logger.LogInformation("Inside Get All");
             var ticket = await _ticketService.GetAll();
 
             var mappedTicket = _mapper.Map<IEnumerable<Ticket>, IEnumerable<TicketModel>>(ticket);
