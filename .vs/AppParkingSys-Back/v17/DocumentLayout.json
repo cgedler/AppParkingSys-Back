@@ -70,8 +70,7 @@
               "RelativeToolTip": "Api\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T23:24:36.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T23:24:36.689Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Api\\Controllers\\PriceController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T23:24:35.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T23:24:35.393Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Api\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T20:05:24.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T20:05:24.273Z"
             },
             {
               "$type": "Document",
@@ -107,7 +104,7 @@
               "RelativeDocumentMoniker": "Api\\Controllers\\TicketController.cs",
               "ToolTip": "C:\\Users\\cge\\OneDrive\\Documents\\NetCoreProjects\\AppParkingSys-Back\\Api\\Controllers\\TicketController.cs",
               "RelativeToolTip": "Api\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwA4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-09T18:55:58.261Z",
               "EditorCaption": ""
