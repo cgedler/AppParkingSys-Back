@@ -3,6 +3,7 @@ using AutoMapper;
 using Core.Entities;
 using Core.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Api.Controllers
 {
@@ -10,6 +11,7 @@ namespace Api.Controllers
     ///  Class <c>PaymentController</c> handles HTTP requests and interacts with the service.
     /// </summary>
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class PaymentController : ControllerBase
     {
