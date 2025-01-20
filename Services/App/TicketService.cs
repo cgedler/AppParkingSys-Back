@@ -24,24 +24,24 @@ namespace Services.App
         {
             throw new NotImplementedException();
         }
-
         Task<IEnumerable<Ticket>> ITicketService.GetAll()
         {
             return _unitOfWork.TicketRepository.GetAllAsync(); ;
         }
-
+        Task<IEnumerable<Ticket>> ITicketService.GetToPay()
+        {
+            return _unitOfWork.TicketRepository.FindAsync(t => t.ExitTime == null); ;
+        }
         Task<Ticket?> ITicketService.GetTicketById(int id)
         {
             return _unitOfWork.TicketRepository.GetByIdAsync(id);
         }
-
         async Task<Ticket> ITicketService.RegisterTicket(Ticket ticket)
         {
             await _unitOfWork.TicketRepository.AddAsync(ticket);
             _unitOfWork.CompleteAsync().Wait();
             return ticket;
         }
-
         Task<Ticket> ITicketService.UpdateTicket(int id, Ticket ticket)
         {
             throw new NotImplementedException();

@@ -11,6 +11,7 @@ namespace Core.Interfaces.Services
     {
         Task<Ticket?> GetTicketById(int id);
         Task<IEnumerable<Ticket>> GetAll();
+        Task<IEnumerable<Ticket>> GetToPay();
         Task<Ticket> RegisterTicket(Ticket ticket);
         Task<Ticket> UpdateTicket(int id, Ticket ticket);
         Task<Ticket> DeleteTicket(int id);

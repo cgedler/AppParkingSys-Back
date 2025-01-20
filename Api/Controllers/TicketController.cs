@@ -25,19 +25,23 @@ namespace Api.Controllers
             _mapper = mapper;
             _logger = logger;
         }
-
         // GET: api/<UserController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TicketModel>>> Get()
         {
-            _logger.LogInformation("Inside Get All");
             var ticket = await _ticketService.GetAll();
-
             var mappedTicket = _mapper.Map<IEnumerable<Ticket>, IEnumerable<TicketModel>>(ticket);
-
             return Ok(mappedTicket);
         }
-
+        // GET: api/<UserController>/topay
+        [HttpGet("topay")]
+        [ActionName(nameof(GetToPay))]
+        public async Task<ActionResult<IEnumerable<TicketModel>>> GetToPay()
+        {
+            var ticket = await _ticketService.GetToPay();
+            var mappedTicket = _mapper.Map<IEnumerable<Ticket>, IEnumerable<TicketModel>>(ticket);
+            return Ok(mappedTicket);
+        }
         // GET api/<TicketController>/5
         [AllowAnonymous]
         [HttpGet("{id}")]
@@ -47,7 +51,6 @@ namespace Api.Controllers
             var mappedTicket = _mapper.Map<Ticket, TicketModel>(ticket);
             return Ok(mappedTicket);
         }
-
         // POST
         [AllowAnonymous]
         [HttpPost]
@@ -55,7 +58,6 @@ namespace Api.Controllers
         {
             try
             {
-                _logger.LogInformation("Inside post");
                 var createdTicket = await _ticketService.RegisterTicket(_mapper.Map<TicketSaveModel, Ticket>(ticket));
                 return Ok(_mapper.Map<Ticket, TicketModel>(createdTicket));
             }
