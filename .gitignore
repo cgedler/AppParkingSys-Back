@@ -56,3 +56,5 @@
 /Core/obj/Release/net8.0/Core.GlobalUsings.g.cs
 /Core/obj/Release/net8.0/Core.AssemblyInfo.cs
 /Core/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+*.pubxml
+*.user
