@@ -72,7 +72,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     x => x.MigrationsAssembly("Infrastructure"))
 );
 
-
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
 WebApplication app = builder.Build();

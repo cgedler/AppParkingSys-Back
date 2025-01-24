@@ -33,6 +33,7 @@
 /.vs/AppParkingSys-Back/v17/.wsuo
 /.vs/AppParkingSys-Back/v17/.suo
 /.vs/AppParkingSys-Back/v17/.futdcache.v2
+/.vs/AppParkingSys-Back/config
 *.dll
 *.json
 *.exe
@@ -58,3 +59,4 @@
 /Core/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 *.pubxml
 *.user
+*.puml

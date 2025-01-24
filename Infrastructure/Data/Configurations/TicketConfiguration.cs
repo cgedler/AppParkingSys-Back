@@ -15,17 +15,13 @@ namespace Infrastructure.Data.Configurations
         {
             builder
               .HasKey(x => x.Id);
-
             builder
                 .Property(x => x.Id)
                 .UseIdentityColumn();
-            
             builder
                .Property(x => x.EntryTime);
-
             builder
                .Property(x => x.ExitTime);
-
             builder
                 .ToTable("Tickets");
         }

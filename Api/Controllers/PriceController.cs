@@ -24,7 +24,6 @@ namespace Api.Controllers
             _mapper = mapper;
             _logger = logger;
         }
-
         // GET: api/<PriceController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<PriceModel>>> Get()
@@ -35,7 +34,6 @@ namespace Api.Controllers
 
             return Ok(mappedPrice);
         }
-
         // GET api/<PriceController>/5
         [HttpGet("{id}")]
         public async Task<ActionResult<PriceModel>> Get(int id)
@@ -44,7 +42,6 @@ namespace Api.Controllers
             var mappedPrice = _mapper.Map<Price, PriceModel>(price);
             return Ok(mappedPrice);
         }
-
         // POST api/<PriceController>
         [HttpPost]
         public async Task<ActionResult<PriceModel>> Post([FromBody] PriceSaveModel price)
@@ -60,7 +57,6 @@ namespace Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         // PUT api/<PriceController>/5
         [HttpPut("{id}")]
         public async Task<ActionResult<PriceModel>> Put(int id, [FromBody] PriceModel price)
@@ -80,7 +76,6 @@ namespace Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
         // DELETE api/<PriceController>/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<PriceModel>> Delete(int id)

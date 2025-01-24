@@ -20,22 +20,18 @@ namespace Services.App
             _unitOfWork = unitOfWork;
             _logger = logger;
         }
-
         Task<User?> IUserService.GetUserById(int id)
         {
             return _unitOfWork.UserRepository.GetByIdAsync(id);
         }
-
         Task<User?> IUserService.GetUserByEmail(string email)
         {
             return _unitOfWork.UserRepository.GetUserByEmailAsync(email);
         }
-
         Task<IEnumerable<User>> IUserService.GetAll()
         {
             return _unitOfWork.UserRepository.GetAllAsync();
         }
-
         async Task<User> IUserService.RegisterUser(User user)
         {
             UserValidator validator = new();
@@ -53,7 +49,6 @@ namespace Services.App
             }
             return user;
         }
-
         async Task<User> IUserService.UpdateUser(int id, User user)
         {
             UserValidator validator = new();
@@ -82,7 +77,6 @@ namespace Services.App
             }
             return user;
         }
-
         async Task<User> IUserService.DeleteUser(int id)
         {
             var user = await _unitOfWork.UserRepository.GetByIdAsync(id); 

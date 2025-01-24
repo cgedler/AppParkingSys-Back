@@ -44,16 +44,13 @@ namespace Services.App
             }
             return payment;
         }
-
         Task<Payment> IPaymentService.UpdatePayment(int id, Payment payment)
         {
             throw new NotImplementedException();
         }
-
         Task<Payment> IPaymentService.DeletePayment(int id)
         {
             throw new NotImplementedException();
         }
-
     }
 }

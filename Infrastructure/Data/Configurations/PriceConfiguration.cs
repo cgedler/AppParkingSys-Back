@@ -15,15 +15,12 @@ namespace Infrastructure.Data.Configurations
         {
             builder
               .HasKey(x => x.Id);
-
             builder
                 .Property(x => x.Id)
                 .UseIdentityColumn();
-
             builder
                .Property(x => x.Amount)
                .HasColumnType("decimal(18,2)");
-
             builder
                 .ToTable("Prices");
         }

@@ -66,5 +66,24 @@ namespace Api.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        // PUT api/<TicketController>/5
+        [HttpPut("{id}")]
+        public async Task<ActionResult<TicketModel>> Put(int id, [FromBody] TicketModel ticket)
+        {
+            _logger.LogInformation("Inside put");
+            if (id != ticket.Id)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                var updatedTicket = await _ticketService.UpdateTicket(id, _mapper.Map<TicketModel, Ticket>(ticket));
+                return Ok(_mapper.Map<Ticket, TicketModel>(updatedTicket));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

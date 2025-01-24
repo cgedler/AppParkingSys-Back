@@ -42,9 +42,21 @@ namespace Services.App
             _unitOfWork.CompleteAsync().Wait();
             return ticket;
         }
-        Task<Ticket> ITicketService.UpdateTicket(int id, Ticket ticket)
+        async Task<Ticket> ITicketService.UpdateTicket(int id, Ticket ticket)
         {
-            throw new NotImplementedException();
+            var existingTicket = await _unitOfWork.TicketRepository.GetByIdAsync(id);
+            if (existingTicket == null)
+            {
+                _logger.LogWarning("Inside Update Ticket: Invalid ticket ID while updating");
+                throw new ArgumentException("Invalid ticket ID while updating");
+            }
+            else
+            {
+                existingTicket.ExitTime = ticket.ExitTime;
+                _unitOfWork.TicketRepository.Update(existingTicket);
+                _unitOfWork.CompleteAsync().Wait();
+            }
+            return ticket;
         }
     }
 }
