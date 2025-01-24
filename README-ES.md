@@ -63,6 +63,8 @@ Este proyecto es una API REST desarrollada con ASP.NET Core 8 que implementa una
 
 
 # Screenshots
-![page1](docs/images/entitys.svg)
+![page1](docs/images/Entitys.png)
 
-![page1](docs/images/usecase.svg)
+![page1](docs/images/UseCase.png)
+
+![page1](docs/images/Sequence.png)
