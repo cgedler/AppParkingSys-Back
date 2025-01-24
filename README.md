@@ -62,7 +62,7 @@ This project is a REST API developed with ASP.NET Core 8 that implements a Clean
 > This system simulates what a parking control system would be like, a ticket dispenser. It only has a small part implemented to simulate the ticket dispenser. It does not have the administrative modules for billing, etc. fully developed. These could be included in the future.
 
 # Screenshots
-![page1](docs/images/Entitys.png)
+![page1](docs/images/Entities.png)
 
 ![page1](docs/images/UseCase.png)
 
